@@ -1,4 +1,4 @@
-# FraudLens AI
+# BLACKTRACE
 
 > **Detect Fraud Before It Happens.**
 > An AI-powered multimodal fraud investigation assistant built with **Gemma 4** for the **Build with Gemma 4 – AI Durg Hackathon (Track 3: Open Track)**.
@@ -7,11 +7,11 @@
 
 ## Overview
 
-FraudLens AI helps users identify and understand potential digital scams before financial loss occurs.
+BLACKTRACE helps users identify and understand potential digital scams before financial loss occurs.
 
 Modern fraud is no longer limited to emails and SMS. Scammers now exploit multiple communication channels including WhatsApp, social media, voice calls, fake advertisements, and manipulated videos.
 
-FraudLens AI enables users to upload suspicious content and receive a structured fraud analysis powered by **Gemma 4**.
+BLACKTRACE enables users to upload suspicious content and receive a structured fraud analysis powered by **Gemma 4**.
 
 Supported content types:
 
@@ -213,7 +213,7 @@ Threat Analysis
 
 ## Gemma 4 Integration
 
-Gemma 4 serves as the core intelligence layer of FraudLens AI.
+Gemma 4 serves as the core intelligence layer of BLACKTRACE.
 
 ### Responsibilities
 
@@ -316,7 +316,7 @@ Verify directly through your bank's official website.
 
 ## Innovation
 
-Unlike traditional scam detectors that only classify content as "scam" or "safe", FraudLens AI provides:
+Unlike traditional scam detectors that only classify content as "scam" or "safe", BLACKTRACE provides:
 
 * Explainable AI Analysis
 * Social Engineering Detection
@@ -363,4 +363,4 @@ This allows users to understand *why* content is dangerous rather than relying o
 
 This project is developed for educational and hackathon purposes.
 
-FraudLens AI does not provide legal, financial, or cybersecurity guarantees. Users should verify critical decisions through official channels.
+BLACKTRACE does not provide legal, financial, or cybersecurity guarantees. Users should verify critical decisions through official channels.
