@@ -51,7 +51,7 @@ Common threats include:
 
 Many victims lose money because fraudulent content appears legitimate and creates urgency, fear, or false trust.
 
-FraudLens AI aims to bridge this gap through explainable AI-powered fraud analysis.
+BLACKTRACE aims to bridge this gap through explainable AI-powered fraud analysis.
 
 ---
 
@@ -291,7 +291,7 @@ Your bank account will be suspended.
 Click the link below immediately to verify your identity.
 ```
 
-### FraudLens AI Output
+### BLACKTRACE Output
 
 ```text
 Risk Level: HIGH
