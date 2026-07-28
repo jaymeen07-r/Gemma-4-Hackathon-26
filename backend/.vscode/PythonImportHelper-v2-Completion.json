@@ -1,0 +1,204 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "genai",
+        "importPath": "google",
+        "description": "google",
+        "isExtraImport": true,
+        "detail": "google",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Form",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_fraud",
+        "importPath": "services.gemma",
+        "description": "services.gemma",
+        "isExtraImport": true,
+        "detail": "services.gemma",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_image",
+        "importPath": "services.ocr",
+        "description": "services.ocr",
+        "isExtraImport": true,
+        "detail": "services.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "services.gemma",
+        "description": "services.gemma",
+        "peekOfCode": "client = genai.Client(api_key=os.getenv(\"GOOGLE_API_KEY\"))\nwith open(\"prompts/fraud_prompt.txt\", \"r\", encoding=\"utf-8\") as f:\n    SYSTEM_PROMPT = f.read()\nasync def analyze_fraud(content: str):\n    prompt = f\"\"\"\n{SYSTEM_PROMPT}\nContent:\n{content}\n\"\"\"\n    print(\"===== PROMPT =====\")",
+        "detail": "services.gemma",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_image",
+        "kind": 2,
+        "importPath": "services.ocr",
+        "description": "services.ocr",
+        "peekOfCode": "def extract_text_from_image(image_bytes: bytes):\n    response = requests.post(\n        \"https://api.ocr.space/parse/image\",\n        files={\"file\": (\"image.jpg\", image_bytes, \"image/jpeg\")},\n        data={\"apikey\": API_KEY, \"language\": \"eng\"},\n    )\n    result = response.json()\n    if result.get(\"IsErroredOnProcessing\"):\n        print(\"OCR ERROR:\", result)\n        return \"\"",
+        "detail": "services.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "services.ocr",
+        "description": "services.ocr",
+        "peekOfCode": "API_KEY = os.getenv(\"OCR_API_KEY\")\ndef extract_text_from_image(image_bytes: bytes):\n    response = requests.post(\n        \"https://api.ocr.space/parse/image\",\n        files={\"file\": (\"image.jpg\", image_bytes, \"image/jpeg\")},\n        data={\"apikey\": API_KEY, \"language\": \"eng\"},\n    )\n    result = response.json()\n    if result.get(\"IsErroredOnProcessing\"):\n        print(\"OCR ERROR:\", result)",
+        "detail": "services.ocr",
+        "documentation": {}
+    },
+    {
+        "label": "AnalyzeRequest",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class AnalyzeRequest(BaseModel):\n    content: str\n@app.post(\"/api/analyze\")\nasync def analyze(text: str = Form(\"\"), file: UploadFile = File(None)):\n    content = text\n    if file:\n        file_bytes = await file.read()\n    if file.content_type.startswith(\"image/\"):\n        extracted_text = extract_text_from_image(file_bytes)\n        print(\"OCR TEXT:\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\nclass AnalyzeRequest(BaseModel):\n    content: str",
+        "detail": "main",
+        "documentation": {}
+    }
+]
