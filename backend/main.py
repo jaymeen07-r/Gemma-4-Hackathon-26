@@ -28,12 +28,12 @@ async def analyze(text: str = Form(""), file: UploadFile = File(None)):
         file_bytes = await file.read()
 
     if file.content_type.startswith("image/"):
-
         extracted_text = extract_text_from_image(file_bytes)
 
         print("OCR TEXT:")
         print(extracted_text)
-        content += f"""IMAGE CONTENT DETECTED:{extracted_text}"""
+
+        content += f"IMAGE CONTENT DETECTED: {extracted_text}"
 
     result = await analyze_fraud(content)
 
