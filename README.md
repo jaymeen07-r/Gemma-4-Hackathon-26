@@ -20,9 +20,7 @@ Supported content types:
 * Emails
 * Screenshots
 * Images
-* Audio Recordings
-* Voice Notes
-* Videos
+
 
 The system analyzes submitted content and provides:
 
@@ -79,8 +77,6 @@ Analyze:
 
 * Text
 * Images
-* Audio
-* Video
 
 ### Scam Classification
 
@@ -174,39 +170,6 @@ Gemma 4
       │
       ▼
 Fraud Analysis
-```
-
-### Audio Analysis
-
-```text
-Audio File
-     │
-     ▼
-Speech-to-Text
-     │
-     ▼
-Gemma 4
-     │
-     ▼
-Risk Assessment
-```
-
-### Video Analysis
-
-```text
-Video Upload
-      │
-      ▼
-Frame Extraction
-      │
-      ▼
-Audio Extraction
-      │
-      ▼
-Gemma 4
-      │
-      ▼
-Threat Analysis
 ```
 
 ---
