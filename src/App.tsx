@@ -13,6 +13,7 @@ import {
   Attachment01Icon,
   ArrowDown02Icon,
 } from "@hugeicons/core-free-icons";
+const API_URL = import.meta.env.VITE_API_URL;
 // ─── Types ─────────────────────────────────────────────────────────────────────
 
 type RiskLevel = "HIGH" | "MEDIUM" | "LOW";
@@ -307,7 +308,7 @@ function Hero() {
         setStageLabel(ANALYSIS_STAGES.ANALYZING);
       }, 700);
 
-      const response = await fetch("http://localhost:8000/api/analyze", {
+       const response = await fetch(`${API_URL}/api/analyze`, {
         method: "POST",
         body: formData,
       });
