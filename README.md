@@ -308,9 +308,9 @@ This allows users to understand *why* content is dangerous rather than relying o
 
 | Member   | Role              |
 | -------- | ----------------- |
-| Member 1 | Frontend Engineer |
-| Member 2 | Backend Engineer  |
-| Member 3 | AI Engineer       |
+| Member 1 | Jaymeen vaghela - FullStack & AI Engineer |
+| Member 2 | Raj Sangani - UI-Ux Desiner & Frontend |
+| Member 3 | Manan Patel - Research & Tester|
 
 ---
 
@@ -318,8 +318,6 @@ This allows users to understand *why* content is dangerous rather than relying o
 
 **Event:** Build with Gemma 4 – AI Durg
 **Track:** Track 3 – Open Track
-**Powered By:** Google Gemma 4
-
 ---
 
 ## License
