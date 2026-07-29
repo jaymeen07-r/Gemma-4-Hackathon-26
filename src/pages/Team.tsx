@@ -15,7 +15,7 @@ function TeamDescription() {
   const members = [
     {
       name: "Jaymeen Vaghela",
-      role: "Founder & Lead Developer",
+      role: "backend & ai",
       responsibilities: [
         "Platform Architecture",
         "Frontend Development",
@@ -25,8 +25,8 @@ function TeamDescription() {
       ],
     },
     {
-      name: "AI Engineering",
-      role: "Research & Intelligence",
+      name: "Raj Sangani",
+      role: "ui/ux and frontend",
       responsibilities: [
         "Prompt Engineering",
         "Fraud Classification",
@@ -35,8 +35,8 @@ function TeamDescription() {
       ],
     },
     {
-      name: "Research & Validation",
-      role: "Threat Research",
+      name: "Manan Patel",
+      role: "Research & Testing",
       responsibilities: [
         "Fraud Research",
         "Case Validation",
@@ -45,6 +45,7 @@ function TeamDescription() {
       ],
     },
   ];
+
 
   const timeline = [
     {
@@ -97,48 +98,6 @@ function TeamDescription() {
             technical development, intelligence analysis, and user-focused
             design.
           </p>
-        </div>
-      </section>
-
-      {/* LEADERSHIP */}
-
-      <section className="border-b" style={{ borderColor: "#171717" }}>
-        <div className="max-w-7xl mx-auto px-8 lg:px-16 py-24">
-          <div
-            className="text-xs font-mono uppercase tracking-widest mb-10"
-            style={{ color: "#666" }}
-          >
-            Leadership
-          </div>
-
-          <div
-            className="border"
-            style={{
-              borderColor: "#171717",
-              backgroundColor: "#0F0F0F",
-            }}
-          >
-            <div className="p-10 lg:p-12">
-              <div className="text-xs font-mono mb-4" style={{ color: "#666" }}>
-                FOUNDER
-              </div>
-
-              <h2 className="text-4xl font-semibold mb-3">Jaymeen Vaghela</h2>
-
-              <div className="text-sm font-mono mb-8" style={{ color: "#888" }}>
-                Founder & Lead Developer
-              </div>
-
-              <p
-                className="max-w-3xl leading-relaxed"
-                style={{ color: "#B3B3B3" }}
-              >
-                Responsible for platform architecture, frontend development,
-                backend integration, investigation workflows, intelligence
-                systems, and overall product direction.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
