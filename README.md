@@ -304,7 +304,7 @@ This allows users to understand *why* content is dangerous rather than relying o
 
 ## Team
 
-**Team Name:** [Your Team Name]
+**Team Name:** BLACKTRACE
 
 | Member   | Role              |
 | -------- | ----------------- |
