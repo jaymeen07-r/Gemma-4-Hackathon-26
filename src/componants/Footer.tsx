@@ -77,7 +77,7 @@ export default function Footer() {
           </div>
 
           <div className="font-mono text-xs" style={{ color: "#555" }}>
-            Built by TRINETRA · Version 1.0
+            Ai-Drug Gemma Hackaton · Version 1.0
           </div>
         </div>
       </div>
